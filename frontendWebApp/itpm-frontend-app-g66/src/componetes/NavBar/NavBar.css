@@ -1,0 +1,49 @@
+.navbar_content{
+    height: 54px;
+    width: 100%;
+    background-color: rgb(21, 149, 211);
+    border-bottom: 1px solid #dbdbdb ;
+
+}
+.logo{
+    width: 55px;
+    height: 55px;
+    margin-top: -2px;
+    /* border-radius: 50%; */
+    /* margin-left:30px; */
+}
+.searchNow{
+   height: 30px;
+   width: 250px;
+   margin-top: 10px;
+   border: 1px solid #dbdbdb;
+   border-radius: 14px;
+   text-align: center;
+   background-color: #fafafa;
+   font-weight: 400;
+   outline: none;
+}
+.searchNow:hover{
+    cursor: pointer;
+    background-color: #f6f4f4;
+}
+.items{
+    margin-left: 53px;
+    margin-top: 12px;
+    cursor: pointer;
+    color: #dbdbdb;
+    font-weight: bold;
+    height: 30px;
+}
+.items:hover{
+    background-color:rgb(6, 69, 101);
+}
+.itemsAvatar{
+    margin-left: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+    margin-top: 7px;
+
+}
