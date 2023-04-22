@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
 import { Grid } from '@mui/material';
 import backgroundImg1 from "../../images/SDG-14.gif";
-import backgroundImg from "../../images/background.jpg";
+// import backgroundImg from "../../images/background.jpg";
 import './MainPage.css'
+import video from "../../video/videoo.mp4"
 
 
 class MainPage extends Component {
@@ -15,7 +16,8 @@ class MainPage extends Component {
         <div>
 
             <div className="main_container">
-                <img src={backgroundImg} alt="" className="image-of-back" />
+                {/* <img src={backgroundImg} alt="" className="image-of-back" /> */}
+                <video src={video} className="this-back-video" type="video/mp4" loop muted autoplay="autoplay" />  
                 <button className="join-button">Join With Us</button>
             </div>   
 
@@ -53,6 +55,10 @@ class MainPage extends Component {
                         
                       
                     </Grid>
+                    
+                </div>
+                <div className="article-container">
+                    articles and other details
                 </div>
         </div> 
         );
